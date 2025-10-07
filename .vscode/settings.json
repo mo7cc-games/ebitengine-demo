@@ -1,3 +1,18 @@
 {
-  "cSpell.words": ["Ebitengine"]
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "wails.json, vite.config.*, .eslint*, eslint*, .prettier*, prettier*, tsconfig.json,env.d.ts, tsconfig.*.json, package-lock.json, pnpm*, bun.lock",
+    ".gitignore": ".gitattributes, .gitmodules, .stignore, ",
+    "go.mod": "go.sum",
+    "README.md": "AGENTS.md"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "files.exclude": {
+    "node_modules": true
+    // ".stfolder": true,
+    // ".obsidian": true
+  },
+  "cSpell.words": ["ebitengine"]
 }
