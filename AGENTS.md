@@ -31,9 +31,13 @@
 - Ebitengine 2.9
 - Donburi 1.15
 
+使用 modernc.org/sqlite 作为数据存储和查询以及加密。
+当前版本 1.39
+官网地址 https://pkg.go.dev/modernc.org/sqlite
+
 ## 支持平台
 
-linux， darwin，windows，amd64，arm64
+linux，darwin，windows，amd64，arm64
 
 ## 常用 CI 示例
 
